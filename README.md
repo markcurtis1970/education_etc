@@ -7,4 +7,6 @@ Generate a times table.
 ## timestable.py
 Genrate a multiplication grid
 
+## inputs.py
+A simple example of using inputs
 
