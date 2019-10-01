@@ -1,0 +1,23 @@
+```
+print("Hi there, welcome to Pokemon!")				print("Hi there, welcome to Pokemon!")
+name = input("What is your name? ")			      |	name = raw_input("What is your name? ")
+print("Hi Master " + name)				      |	print("Hi Master " + str(name))
+print(name + " pick a starter Pokemon, you can choose from Bu	print(name + " pick a starter Pokemon, you can choose from Bu
+Bulbasaur = input("Bulbasaur? ")			      |	Bulbasaur = raw_input("Bulbasaur? ")
+if ("yes"):						      |	if Bulbasaur == "yes":
+    print("You chose Bulbasaur")			      |	    print("You chose Bulbasaur\nThanks for playing, bye!")
+elif ("no"):						      |	    exit()
+							      >	else:
+    print("Ok")							    print("Ok")
+
+Squirtle = input("Squirtle? ")				      |	Squirtle = raw_input("Squirtle? ")
+if ("yes"):						      |	if Squirtle ==  "yes":
+    print("You chose Squirtle")				      |	    print("You chose Squirtle\nThanks for playing, bye!")
+elif ("no"):						      |	    exit()
+    print("Ok")						      <
+    print("You chose Charmander")			      <
+else:								else:
+ print("Please restart your game")			      |	    print("Ok")
+							      >
+							      >	print("You chose Charmander\nThanks for playing, bye!")
+```
