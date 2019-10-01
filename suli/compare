@@ -1,4 +1,9 @@
-```
+Compares the original code to the working code
+
+Original <> Fixed
+
+-----------------
+
 print("Hi there, welcome to Pokemon!")				print("Hi there, welcome to Pokemon!")
 name = input("What is your name? ")			      |	name = raw_input("What is your name? ")
 print("Hi Master " + name)				      |	print("Hi Master " + str(name))
